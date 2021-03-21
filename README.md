@@ -36,7 +36,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 - Heroku
 
 ## Image
-![screenshot of deployed app](
+![screenshot of deployed app](2021-03-21_15-16-42.png)
 
 ## Link to deployed app
 [Deployed Note Taker App](https://mysterious-lake-36964.herokuapp.com/)
