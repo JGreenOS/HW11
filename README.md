@@ -35,7 +35,8 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 - UUID (ndmjs.com/package/uuid)  Version 1 was most appropriate for the scope of this application
 - Heroku
 
-
+## Image
+![screenshot of deployed app](
 
 ## Link to deployed app
 [Deployed Note Taker App](https://mysterious-lake-36964.herokuapp.com/)
