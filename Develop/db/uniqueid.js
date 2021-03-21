@@ -59,7 +59,7 @@ class Remember {
             .then(() => newNote);
     }
 
-//all of this work to make this feature work - now that the notes have a unqiue id, when the note is clicked on (this!) it is filtered so ONLY the note id of THIS note is returned in the filter, then the delete function is in the api routes / router.delete method.
+    //all of this work to make this feature work - now that the notes have a unqiue id, when the note is clicked on (this!) it is filtered so ONLY the note id of THIS note is returned in the filter, then the delete function is in the api routes / router.delete method.
     removeNote(id) {
         return this.getNotes()
             .then((notes) => notes.filter((note) => note.id !== id))
