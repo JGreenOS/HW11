@@ -28,12 +28,12 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 
 ## Technology Stack
-Express
-Node JS
-JSON
-Routing
-UUID (ndmjs.com/package/uuid)  Version 1 was most appropriate for the scope of this application
-Heroku
+*Express
+*Node JS
+*JSON
+*Routing
+*UUID (ndmjs.com/package/uuid)  Version 1 was most appropriate for the scope of this application
+*Heroku
 
 
 
