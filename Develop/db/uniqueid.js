@@ -1,6 +1,6 @@
 //this setsup the required utlities for reading and writing to the files
 
-const util = requestAnimationFrame('util');
+const util = require('util');
 const fs = require('fs');
 
 //this sets up the uuid and I am using only v1 because a timestamp is appropriate for this use case. 
@@ -9,8 +9,8 @@ const uuidv1 = require('uuidv1');
 
 
 //The util helps with the promise here, instead of a callback from hell!
-const readFileASync = util.promisfy(fs.readFile);
-const writeFileAsync = util.promisfy(fs.writeFile);
+const readFileASync = util.promisify(fs.readFile);
+const writeFileAsync = util.promisify(fs.writeFile);
 
 
 //this class is the template for the notes and will include a unique identifier when the note is created and will allow for filtering so that the correct (this!) note is deleted
@@ -18,7 +18,7 @@ const writeFileAsync = util.promisfy(fs.writeFile);
 class Remember {
 
     read() {
-        return readFileASync('db/db.json');
+        return readFileASync('db/db.json', 'utf-8');
     }
 
     write(note) {

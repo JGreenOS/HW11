@@ -1,5 +1,4 @@
 const path = require('path');
-const router = require('./apiRoutes');
 const router = require('express').Router();
 
 router.get('/notes', (req, res) => {
